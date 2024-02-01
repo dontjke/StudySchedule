@@ -1,4 +1,4 @@
-package com.stepanov.studyshedule
+package com.stepanov.studyschedule
 
 import org.junit.Test
 

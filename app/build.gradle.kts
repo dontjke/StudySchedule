@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "com.stepanov.studyshedule"
+    namespace = "com.stepanov.studyschedule"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.stepanov.studyshedule"
+        applicationId = "com.stepanov.studyschedule"
         minSdk = 26
         targetSdk = 34
         versionCode = 1
@@ -26,6 +26,11 @@ android {
             )
         }
     }
+    
+    buildFeatures {
+        viewBinding = true
+    }
+
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_1_8
         targetCompatibility = JavaVersion.VERSION_1_8
